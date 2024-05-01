@@ -257,7 +257,6 @@ h1,h2,h3,h4,h5,h6{
 #t-cards {
     padding-top: 50px;
     padding-bottom: 30px;
-    background: url(assets/background-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -668,7 +667,6 @@ h1,h2,h3,h4,h5,h6{
 /********************* footer ********************/
 
 #footer{
-    background: url(assets/footer.jpeg);
     background-size: contain;
     background-position: bottom;
     background-attachment: fixed;

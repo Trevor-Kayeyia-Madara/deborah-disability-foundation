@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) !important;
+  background-image: url('../IMAGES/foundation15.jpeg') !important;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -62,7 +62,7 @@ section {
 
 .row  {
   display: flex;
-  flwx-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
