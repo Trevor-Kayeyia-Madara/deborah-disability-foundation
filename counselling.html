@@ -58,13 +58,13 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item" id="nav_a1">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item" id="nav_a4">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
             <li class="nav-item" id="nav_a5">
-              <a class="nav-link" href="counselling.html">Counselling Services</a>
+              <a class="nav-link active" href="counselling.html">Counselling Services</a>
             </li>
             <li class="nav-item" id="nav_a5">
               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -73,3 +73,90 @@
         </div>
       </div>
     </nav>
+    <main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>Welcome to our counseling service! Our team of experienced therapists are dedicated to providing a safe and supportive environment for individuals, couples, and families to explore their challenges and work towards positive change.</p>
+			<p>We believe that everyone deserves to live a fulfilling and meaningful life, and we are committed to helping our clients achieve their goals and improve their overall well-being.</p>
+		</section>
+		
+		<section id="services">
+			<h2>Our Services</h2>
+			<ul>
+				<li><strong>Individual Therapy</strong>: One-on-one counseling sessions tailored to your specific needs and goals.</li>
+				<li><strong>Couples Therapy</strong>: Work with your partner to improve communication, resolve conflicts, and strengthen your relationship.</li>
+				<li><strong>Family Therapy</strong>: Bring your family together to address challenges and improve relationships.</li>
+				<li><strong>Group Therapy</strong>: Join a supportive group of individuals working through similar challenges.</li>
+			</ul>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>Ready to take the first step towards positive change? Contact us to schedule an appointment or learn more about our services.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone"><br><br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+    <!-- footer -->
+    <section class="container-fluid text-center text-md-start" id="footer">
+        <div class="row py-5">
+          <div class="col-md-4 ps-md-5">
+            <img src="./IMAGES/logo.png" alt="" class="img-fluid ps-md-5" />
+            <p class="pt-3 ps-md-5 pe-md-4 text-white">
+              Deborah Disability Foundation is keen in 
+              ensuring we reach out to people who are 
+              abled differently and offer support to 
+              improve their quality of life.
+            </p>
+          </div>
+          <div class="col-md-2 link d-none d-md-block">
+            <h4>Pages</h4>
+            <a href="index.html">Home</a>
+            <a href="">Our Services</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+          </div>
+          <div class="col-md-2 link d-none d-md-block">
+            <h4>Links</h4>
+            <a href="">Our Services</a>
+            <a href="">About Us</a>
+            <a href="">Contact Us</a>
+          </div>
+          <div class="col-md-4 f_contact">
+            <h4>Contact</h4>
+            <a href="">
+              <i class="fa-solid fa-paper-plane"></i> deborahfoundation2023@gmail.com
+            </a>
+            <a href=""> <i class="fa-solid fa-phone"></i> 0702340995 </a>
+            <a href=""> <i class="fa-solid fa-house"></i> Address </a>
+            <a href="">
+            <br />
+            <br />
+           
+            </a>
+          </div>
+        </div>
+      </section>
+  
+      <!-- bootstrap script -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
+  </html>
