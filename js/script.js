@@ -1,3 +1,32 @@
+document.addEventListener("DOMContentLoaded", function() {
+  const spinner = document.getElementById("spinner");
+
+  function showSpinner() {
+    spinner.style.display = "block";
+  }
+
+  function hideSpinner() {
+    spinner.style.display = "none";
+  }
+
+  // Show spinner when any link is clicked
+  document.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", function(e) {
+      showSpinner();
+    });
+  });
+
+  // Hide spinner when the page is loaded
+  window.addEventListener("load", function() {
+    hideSpinner();
+  });
+
+  // Hide spinner when navigating within the site
+  window.addEventListener("pageshow", function() {
+    hideSpinner();
+  });
+});
+
 function showSuccessMessage() {
   document.getElementById('success-message').style.display = 'block';
 }
