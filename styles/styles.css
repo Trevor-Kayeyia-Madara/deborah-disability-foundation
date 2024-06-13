@@ -679,54 +679,76 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  h2 {
-    margin-top: 0;
+  #contact {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'DM Sans', sans-serif;
   }
   
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  #contact h2 {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
   }
   
-  li {
-    margin-bottom: 10px;
+  #contact p {
+    font-family: 'Arial, sans-serif';
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'DM Sans', sans-serif;
   }
   
-  li strong {
-    font-weight: bold;
-  }
-  form {
+  #contact form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    font-family: 'DM Sans', sans-serif;
   }
   
-  label {
-    margin-bottom: 10px;
+  #contact form label {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    margin-bottom: 8px;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
   }
   
-  input, textarea {
+  #contact form input[type="text"],
+  #contact form input[type="email"],
+  #contact form input[type="tel"],
+  #contact form textarea {
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
   }
   
-  input[type="submit"] {
-    background-color: #337ab7;
-    color: #fff;
-    padding: 10px 20px;
+  #contact form input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
   }
   
-  input[type="submit"]:hover {
-    background-color: #23527c;
+  #contact form input[type="submit"]:hover {
+    background-color: #45a049;
   }
-    
-
+  
   .wrapper{
     position: relative;
     padding-bottom: 56.25125%;
