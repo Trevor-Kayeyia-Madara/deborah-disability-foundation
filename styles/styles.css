@@ -130,7 +130,21 @@ h1,h2,h3,h4,h5,h6{
     animation-duration: 4s;
     animation-timing-function: ease;
 }
+.styled-button {
+    background-color: limegreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
+.styled-button:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
 @keyframes nav_img {
     0%{
         left: -100px;
