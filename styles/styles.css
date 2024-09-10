@@ -297,7 +297,31 @@ h1,h2,h3,h4,h5,h6{
       font-size: 0.9rem; /* Adjust font size for smaller screens */
     }
   }
+/* YouTube Section Styling */
+#youtube-section {
+    background-color: #f9f9f9; /* Light grey background for the YouTube section */
+    padding: 60px 0; /* Top and bottom padding */
+  }
   
+  #youtube-section h2 {
+    font-size: 2.5rem; /* Larger font size for the section title */
+    color: #333; /* Darker color for the section title */
+    margin-bottom: 40px; /* Margin below the title */
+  }
+  
+  #youtube-section .ratio {
+    border-radius: 10px; /* Rounded corners for the videos */
+    overflow: hidden; /* Prevent overflow for rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow around the videos */
+  }
+  
+  /* Media Queries for Additional Responsiveness */
+  @media (max-width: 768px) {
+    #youtube-section h2 {
+      font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+  }
+    
 .anime-3{
     position: relative;
     animation-name: anime-3;
