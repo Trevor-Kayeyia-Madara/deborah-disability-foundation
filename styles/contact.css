@@ -100,9 +100,10 @@ section {
 }
 
 .contact-info-content p {
-  color: #FFF;
+  color: #333;
   font-size: 1em;
 }
+
 
 .contact-form {
   background-color: #fff;
