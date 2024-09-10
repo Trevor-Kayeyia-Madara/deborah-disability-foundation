@@ -240,7 +240,64 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 
-
+/* Blog Section Styling */
+#blog {
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 60px 0; /* Top and bottom padding */
+  }
+  
+  #blog h2 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #333; /* Darker color for the title */
+    margin-bottom: 40px; /* Margin below the title */
+  }
+  
+  #blog .card {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  }
+  
+  #blog .card:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  }
+  
+  #blog .card-title {
+    font-size: 1.5rem; /* Adjusted size for card titles */
+    color: #0066cc; /* Primary color for titles */
+    font-weight: bold; /* Bold text */
+  }
+  
+  #blog .card-text {
+    font-size: 1rem; /* Font size for card text */
+    color: #666; /* Grey color for text */
+  }
+  
+  #blog .btn-primary {
+    background-color: #0066cc; /* Primary color */
+    border: none; /* Remove default button border */
+    border-radius: 8px; /* Rounded button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  #blog .btn-primary:hover {
+    background-color: #004d99; /* Darker color on hover */
+  }
+  
+  /* Media Queries for Additional Responsiveness */
+  @media (max-width: 768px) {
+    #blog h2 {
+      font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+    #blog .card-title {
+      font-size: 1.25rem; /* Adjusted size for card titles on smaller screens */
+    }
+    #blog .card-text {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
 .anime-3{
     position: relative;
     animation-name: anime-3;
